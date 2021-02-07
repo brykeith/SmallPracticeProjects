@@ -1,0 +1,13 @@
+/* *static positioning is the default.
+    * static positioning places elements on the page in the order they appear in the html */
+
+
+.parent{
+  position: static;
+}
+
+.child-one{
+  position: static;
+}
+
+/* * as we can see, nothing has changed after setting these elements to static */

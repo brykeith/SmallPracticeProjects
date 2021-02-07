@@ -1,0 +1,73 @@
+.flexbox-container{
+display: flex;
+border: 3px solid lightcoral;
+margin: 5px 0;
+}
+
+.flexbox-item{
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: lightblue;
+}
+
+/* first example */
+
+.flexbox-item-1{
+  min-height: 100px;
+  flex-shrink: 0;
+}
+
+.flexbox-item-2{
+  min-height: 200px;
+  flex-shrink: 2;
+}
+
+.flexbox-item-3{
+  min-height: 300px;
+  flex-grow: 1;
+}
+
+
+/* second example */
+
+.flexbox-container-2{
+  /* changes horizontal positioning */
+  justify-content: space-between;
+  /* makes items fixed to the top and not fill vertical space */
+  align-items: flex-start;
+}
+
+.flexbox-item-4{
+  min-height: 100px;
+
+}
+
+.flexbox-item-5{
+  min-height: 200px;
+}
+
+.flexbox-item-6{
+  min-height: 300px;
+}
+
+/* third example */
+.flexbox-container-3{
+flex-direction: column;
+}
+
+.flexbox-item-7{
+  min-height: 100px;
+  width: auto;
+}
+
+.flexbox-item-8{
+  min-height: 200px;
+  width: auto;
+
+}
+
+.flexbox-item-9{
+  min-height: 300px;
+  width: auto;
+}

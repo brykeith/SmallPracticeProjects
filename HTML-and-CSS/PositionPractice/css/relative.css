@@ -1,0 +1,15 @@
+/*  * relative acts the same as static, EXCEPT allows you to define its own
+    * top, left, right, and bottom positioning relative to itself.
+      * When you do adjust these properties, the other elements
+      * on the page are not affected
+
+      * in general, top/right/left/bottom will not be used when an
+      * item is positioned relative because it makes it difficult to
+      * style around
+*/
+
+.child-one{
+  position: relative;
+  left: 30px;
+  top: 30px;
+}

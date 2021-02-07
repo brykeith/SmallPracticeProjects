@@ -1,0 +1,23 @@
+body{
+  height: 300vh;
+}
+
+.parent{
+  background: rgb(95, 191, 255);
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  height: 100vh;
+}
+
+.child-one{
+  background: rgb(137, 245, 169);
+}
+
+.child-two{
+  background: rgb(250, 138, 138);
+}
+
+.child-three{
+  background: rgb(195, 164, 253);
+}

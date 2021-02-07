@@ -1,0 +1,22 @@
+/* 
+  * position absolute completely removes the element from the document flow
+    * therefore, when we position an item abolute, it no longer impacts the 
+    * other elements on the page
+  
+    * IMPORTANT NOTE: in order for a child element to be positioned absolute
+    * in relation to its parent, the parent position cannot be static. If the
+    * parent element is static, the child will position in relation to the
+    * full html page. This is the most common use for position relative
+  */
+
+  .parent{
+    /* allows for child to be placed in relation to the parent */
+    /* try commenting this out */
+    position: relative; 
+  }
+
+  .child-one{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+  }

@@ -1,0 +1,13 @@
+
+/* 
+    * elemtnts in sticky position act as relative positioning by default,
+      * but, when they reach the position, but when it reaches the defined
+      * position, it acts as fixed within its parent element.
+    
+*/
+
+/* view behavior as we scroll all the way down the screen */
+.child-one{
+  position:sticky;
+  top: 0px;
+}

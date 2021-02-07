@@ -1,0 +1,12 @@
+
+/* 
+    * elemtnts in fixed position ignore the parent.
+      * these elements position relative to the view port
+      * they remail fixed in the same position even when scrolling.
+    
+*/
+
+.child-one{
+  position:fixed;
+  bottom: 0;
+}
