@@ -1,0 +1,74 @@
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight:  400;
+  /* em means relative to the size of the element */
+  line-height: 1.8em; 
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pimg1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url('../img/art.jpg');
+  height: 100vh;
+}
+
+.pimg2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url('../img/science.jpg');
+  height: 40vh;
+}
+
+.pimg3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url('../img/business.jpg');
+  height: 40vh;
+}
+
+.pimg4{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url('../img/travel.jpg');
+  height: 40vh;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light{
+  background-color: #f9f9f9;
+  color: #666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #f9f9f9;
+}
+
+.ptext .border{
+  background-color: #282e34;
+  padding: 20px;
+  opacity: .6;
+}
+
+.ptext{
+  position: absolute;
+  width: fit-content;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
